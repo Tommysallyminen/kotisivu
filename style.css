@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(100, 100, 140);
+    margin-left: 20em;
+    margin: 0 auto;
+    margin-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+code 
+{
+padding: 2px 4px;
+vertical-align: text-bottom;
+background: #eee;
+
+}
