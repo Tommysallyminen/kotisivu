@@ -6,9 +6,30 @@
     <title>Tomin kotisivut</title>
     <link rel="stylesheet" href="style.css">
 
-
 </head>
 <body>
+    <nav>
+        <H2>Tomin  kuorma-auto sivu</H2>
+       
+    </nav>
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu" id="menu">
+            <li><a href="#">Etusivu</a></li>
+            <li><a href="#">Kuorma-autot</a></li>
+            <li><a href="#">Kategoriat</a></li>
+            <li><a href="#Yhteystiedot">Yhteystiedot</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Sivun sisältö tähän -->
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('open');
+        }
+    </script>
     <div class="Ekalohko">
           <h1>Tervetuloa Tomin kotisivuille!!</h1>
           <p>Tässä yleistä nippelitietoa kuorma-autoista</p>
@@ -45,18 +66,22 @@
             <li>Kuorma-autot ovat välttämättömiä globaalissa logistiikassa ja kuljetuksessa.</li>
             <li>Kuorma-autot ovat tärkeitä moottoriurheilussa ja kuljettavat kilpa-autoja kilpailuissa.</li>
 
-
         </ul>
 
 </div>
 
 
 <div class="Kolmaslohko">
-    <p>lol</p>
+<ul>
+    <p><h3 id="Yhteystiedot">Yhteystiedot</h3>
+        <p>Toimitusjohtaja Kaivurimies</p>
+        <p>Kuorma-autonkuormaajakatu 66</p>
+        04050050400
+
+    </li>
+</ul>
     <h2>en tajua</h2>
 </div>
-
-
 
 
 </body>
