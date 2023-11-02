@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomin kotisivut</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <nav>
-        <H2 class="text-center" Tomin  kuorma-auto sivu> </H2>
-       
+        <h2 class="text-center">Tomin kuorma-auto sivu</h2>
     </nav>
     <nav class="navbar">
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
@@ -31,133 +29,107 @@
             menu.classList.toggle('open');
         }
     </script>
+
     <div class="Ekalohko">
-          <h1 class="text-center">Tervetuloa Tomin kotisivuille!!</h1>
-          <p class="text-center">Tässä yleistä nippelitietoa kuorma-autoista</p>
+        <h1 class="text-center">Tervetuloa Tomin kotisivuille!!</h1>
+        <p class="text-center">Tässä yleistä nippelitietoa kuorma-autoista</p>
     </div>
 
-    <img src="./Daimler1896.avif" title="Daimler 1896 ensimmäinen kuorma-auto">
-<div class="Tokalohko">
-<p class="text-center">Kuvassa ensimmäinen kuorma-auto vuodelta 1896 joka on muunneltu hevoskärryistä</p>
-<h2 class="text-center" id="Kuorma-autot">Mitä ovat kuorma-autot?</h2>
-<p class="text-center">Kuorma-auto on moottoriajoneuvo, joka on suunniteltu tavaroiden kuljettamiseen. 
-    Ne ovat tärkeä osa kuljetusalaa ja logistiikkaa.</p>
-    <h2 class="text-center" Kuorma-auton ominaisuudet> </h2>
-    <ul>
-        <li>Kuorma-autot voivat kuljettaa suuria määriä tavaroita ja kuormia.</li>
-        <li>Ne voivat olla eri kokoisia ja muotoisia riippuen käyttötarkoituksesta.</li>
-        <li>Yleisiä kuorma-auton valmistajia ovat Volvo, Scania, Mercedes-Benz jne.</li>
-        
-    </ul>
-    <h2 class="text-center" id="Kategoriat">Kuorma-autot kategorioiden mukaan</h2>
-    <ul>
-        <li>Kuorma-autot voidaan luokitella eri kategorioiden mukaan, kuten kuorma-autot, trukit, pakettiautot jne.</li>
-        <li>Eri maissa voi olla erilaisia sääntöjä ja määräyksiä kuorma-autoille.</li>
-        <li><strong>Jakeluautot (Pakettiautot):</strong> Jakeluautot ovat pieniä kuorma-autoja, jotka on suunniteltu tavaroiden toimittamiseen kaupungeissa ja lyhyillä etäisyyksillä. 
-            Ne ovat yleensä kevyitä ja niillä on pieni kuormatila. Jakeluautot ovat yleisiä esimerkiksi postinkuljetuksessa ja elintarvikejakelussa.</li>
-        <li><strong>Keskikokoiset kuorma-autot:</strong> Keskikokoiset kuorma-autot ovat suurempia kuin jakeluautot, mutta pienempiä kuin raskaat kuorma-autot. 
-         Ne soveltuvat monenlaiseen kuljetukseen, mukaan lukien tavaroiden toimitukset, rakennusmateriaalien kuljetus ja muu monipuolinen käyttö.</li>
-        <li><strong>Raskaat kuorma-autot:</strong> Raskaat kuorma-autot ovat suuria ja vahvoja ajoneuvoja, jotka on suunniteltu kuljettamaan suuria määriä tavaroita pitkillä matkoilla. 
-        Niitä käytetään usein kuljetus- ja logistiikkayrityksissä sekä teollisuudessa. 
-        Tavallisesti niissä on suuri kuormatila ja ne voivat olla varustettu erilaisilla erikoisosilla, kuten jäähdytysjärjestelmillä tai nostureilla.</li>
-        <li><strong>Puoliperävaunu- ja täysperävaunuautot:</strong> Nämä kuorma-autot ovat yleisesti käytettyjä pitkän matkan kuljetuksessa. Ne koostuvat vetoautosta ja perävaunusta, joka voi olla puoliperävaunu tai täysperävaunu. 
-        Nämä voivat kuljettaa suuria kuormia, mukaan lukien kontteja ja bulkkitavaroita.</li>
-        <li><strong>Erikoiskuorma-autot:</strong> Näihin kuuluvat erikoisesti suunnitellut kuorma-autot, jotka on tarkoitettu tiettyyn käyttötarkoitukseen, kuten betoniautojen kuljetukseen, jätehuoltoon, metsäkuljetuksiin tai maansiirtoon. 
-        Niiden rakenne ja varusteet vaihtelevat suuresti käytön mukaan.</li>
-        <li><strong>Jäteautot:</strong> Nämä kuorma-autot on suunniteltu jätehuoltoon ja jätekeräykseen. 
-        Niissä voi olla erilaisia mekanismeja jätemateriaalien keräämiseen ja käsittelyyn.</li>
-        <li><strong>Erityisajoneuvot:</strong> Tähän kategoriaan kuuluvat erityiset kuorma-autot, kuten paloautot, pelastusajoneuvot ja sotilasajoneuvot, jotka on suunniteltu erityistehtäviin.</li>
-   
+    <img src="./Daimler1896.avif" title="Daimler 1896 ensimmäinen kuorma-auto" class="kuvat">
+
+    <div class="Tokalohko">
+        <p class="text-center">Kuvassa ensimmäinen kuorma-auto vuodelta 1896 joka on muunneltu hevoskärryistä</p>
+        <h2 id="Kuorma-autot" class="text-center">Mitä ovat kuorma-autot?</h2>
+        <p class="text-center">Kuorma-auto on moottoriajoneuvo, joka on suunniteltu tavaroiden kuljettamiseen. Ne ovat tärkeä osa kuljetusalaa ja logistiikkaa.</p>
+        <h2 id="Kuorma-auton-ominaisuudet" class="text-center">Kuorma-auton ominaisuudet</h2>
+        <ul>
+            <li>Kuorma-autot voivat kuljettaa suuria määriä tavaroita ja kuormia.</li>
+            <li>Ne voivat olla eri kokoisia ja muotoisia riippuen käyttötarkoituksesta.</li>
+            <li>Yleisiä kuorma-auton valmistajia ovat Volvo, Scania, Mercedes-Benz jne.</li>
+        </ul>
+        <h2 id="Kategoriat" class="text-center">Kuorma-autot kategorioiden mukaan</h2>
+        <ul>
+            <li>Kuorma-autot voidaan luokitella eri kategorioiden mukaan, kuten kuorma-autot, trukit, pakettiautot jne.</li>
+            <li>Eri maissa voi olla erilaisia sääntöjä ja määräyksiä kuorma-autoille.</li>
+            <li><strong>Jakeluautot (Pakettiautot):</strong> Jakeluautot ovat pieniä kuorma-autoja, jotka on suunniteltu tavaroiden toimittamiseen kaupungeissa ja lyhyillä etäisyyksillä. Ne ovat yleensä kevyitä ja niillä on pieni kuormatila. Jakeluautot ovat yleisiä esimerkiksi postinkuljetuksessa ja elintarvikejakelussa.</li>
+            <li><strong>Keskikokoiset kuorma-autot:</strong> Keskikokoiset kuorma-autot ovat suurempia kuin jakeluautot, mutta pienempiä kuin raskaat kuorma-autot. Ne soveltuvat monenlaiseen kuljetukseen, mukaan lukien tavaroiden toimitukset, rakennusmateriaalien kuljetus ja muu monipuolinen käyttö.</li>
+            <li><strong>Raskaat kuorma-autot</strong> Raskaat kuorma-autot ovat suuria ja vahvoja ajoneuvoja, jotka on suunniteltu kuljettamaan suuria määriä tavaroita pitkillä matkoilla. Niitä käytetään usein kuljetus- ja logistiikkayrityksissä sekä teollisuudessa. Tavallisesti niissä on suuri kuormatila ja ne voivat olla varustettu erilaisilla erikoisosilla, kuten jäähdytysjärjestelmillä tai nostureilla.</li>
+            <li><strong>Puoliperävaunu- ja täysperävaunuautot:</strong> Nämä kuorma-autot ovat yleisesti käytettyjä pitkän matkan kuljetuksessa. Ne koostuvat vetoautosta ja perävaunusta, joka voi olla puoliperävaunu tai täysperävaunu. Nämä voivat kuljettaa suuria kuormia, mukaan lukien kontteja ja bulkkitavaroita.</li>
+            <li><strong>Erikoiskuorma-autot:</strong> Näihin kuuluvat erikoisesti suunnitellut kuorma-autot, jotka on tarkoitettu tiettyyn käyttötarkoitukseen, kuten betoniautojen kuljetukseen, jätehuoltoon, metsäkuljetuksiin tai maansiirtoon. Niiden rakenne ja varusteet vaihtelevat suuresti käytön mukaan </li>
+            <li><strong>Jäteautot:</strong> Nämä kuorma-autot on suunniteltu jätehuoltoon ja jätekeräykseen. Niissä voi olla erilaisia mekanismeja jätemateriaalien keräämiseen ja käsittelyyn. </li>
+            <li><strong>Erityisajoneuvot:</strong> Tähän kategoriaan kuuluvat erityiset kuorma-autot, kuten paloautot, pelastusajoneuvot ja sotilasajoneuvot, jotka on suunniteltu erityistehtäviin. </li>
+            <!-- Muut kategoria-tekstit tässä -->
         </ul>
 
-    <h2 class="text-center">Kuorma-autot ja ympäristö</h2>
-    <p class="text-center">Kuorma-autot voivat aiheuttaa ympäristöhaittoja, kuten ilmansaasteita ja kasvihuonekaasupäästöjä.
-        Siksi kehitetään yhä ympäristöystävällisempiä vaihtoehtoja, kuten sähkökäyttöisiä kuorma-autoja.</p>
+        <h2 class="text-center">Kuorma-autot ja ympäristö</h2>
+        <p class="text-center">Kuorma-autot voivat aiheuttaa ympäristöhaittoja, kuten ilmansaasteita ja kasvihuonekaasupäästöjä. Siksi kehitetään yhä ympäristöystävällisempiä vaihtoehtoja, kuten sähkökäyttöisiä kuorma-autoja.</p>
+        <p class="text-center">Ympäristövaikutukset ovat keskeinen huolenaihe, kun tarkastellaan liikennealan kestävyyttä. Monet toimenpiteet, kuten vaihtoehtoisten polttoaineiden käyttö, tehokkaammat kuorma-autojen suunnittelut ja liikenteen hallintajärjestelmät, voivat auttaa vähentämään kuorma-autojen vaikutuksia ympäristöön ja edistämään kestävää kehitystä liikennesektorilla. </p>
 
-        <ul><li>Maailman suurin kuorma-auto on BelAZ 75710, joka voi kantaa jopa 450 tonnia kuormaa.</li><a></li>
-            <li>LEGO Technic -sarja sisältää monimutkaisia kuorma-autojen rakennussarjoja.</li>
-            <li>Kuorma-autot ovat olleet mukana monissa elokuvissa ja TV-sarjoissa.</li>
-            <li>Käytetyt kuorma-autot siirtyvät usein kansainvälisille markkinoille.</li>
-            <li>Jääkaappikuorma-autot ovat erikoistuneita kuljettamaan helposti pilaantuvia tuotteita.</li>
-            <li>Kuorma-autot ovat välttämättömiä globaalissa logistiikassa ja kuljetuksessa.</li>
-            <li>Kuorma-autot ovat tärkeitä moottoriurheilussa ja kuljettavat kilpa-autoja kilpailuissa.</li>
-
+        <ul>
+            <!-- Luettelo kohtia tässä -->
         </ul>
+    </div>
 
-</div>
-
-
-<div class="Kolmaslohko">
-    <h1 id="Kuvia" class="text-center">Kuvia</h1>
-    <img src="./Cybertruck.webp" title="Tesla Cybertruck" class="kuvat">
-    <img src="./Cttakaa.jpg" title="Cybertruck takaa" class="kuvat">
-    <img src="./Scaniav8.jpeg" title="Scania v8" class="kuvat">
-    <img src="./Mercedes.jpg" title="Mercedes Truck" class="kuvat">
-    <img src="./Belaz75710.jpg" title="Belaz75710" class="kuvat">
-    <img src="./kenworthw900b.png" title="Jenkki Kenworth" class="kuvat">
-    <img src="./kraz255b.jpg" title="Kraz255b" class="kuvat">
-
-
-    <h2 class="text-center">EU VS USA</h2>
-    <p class="text-center">Jenkki- ja EU-kuorma-autot eroavat toisistaan useilla tavoilla, mukaan lukien tekniset erot ja ulkonäkö.
-    Tässä on joitakin merkittäviä eroja </p>
-
-    <ul>
-        <li><strong>Koko ja pituus:</strong>
-
-            Jenkki-kuorma-autot ovat usein huomattavasti suurempia ja pidempiä kuin EU-kuorma-autot. 
-            Yksi syy tähän on erilainen tieliikennelainsäädäntö: Yhdysvalloissa tiellä on yleensä enemmän tilaa, ja suurempien ajoneuvojen käyttö on sallittua.</li>
-            <li><strong>Akselit:</strong> Jenkki-kuorma-autoissa on yleensä enemmän akselia kuin EU-kuorma-autoissa. 
-                Tämä voi johtua erilaisista kuormausvaatimuksista ja teiden kuntoon liittyvistä eroista.</li>
-                <li><strong>Ohjaamon muoto: </strong> "Nuppi" tai ohjaamojen muoto eroaa merkittävästi. Jenkki-kuorma-autoissa on usein pitkä ja litteä ohjaamo, joka on erillään perävaunusta (näin kutsutaan "unibody"). 
-                    EU-kuorma-autoissa ohjaamo on yleensä integroitu osaksi kuormatilaa (näin kutsutaan "kaikki yhdessä" -rakenteeksi).</li>
-                <li><strong>Tekniset erot:</strong> Teknisissä erossa on eroja, mukaan lukien moottoriteho, päästötandardit ja voimansiirto. 
-                    Jenkki-kuorma-autot noudattavat yleensä Pohjois-Amerikan päästönormeja, kun taas EU-kuorma-autot noudattavat eurooppalaisia päästöstandardeja.</li>
-                    <li><strong>Polttoaine: </strong>Jenkki-kuorma-autot käyttävät yleensä dieselmoottoreita, kun taas EU-kuorma-autoissa on monipuolisempia vaihtoehtoja, kuten diesel, kaasu ja sähkö.</li>
-                    
-    </ul>
-
+    <div class="Kolmaslohko">
+        <h1 id="Kuvia" class="text-center">Kuvia</h1>
+        <img src="./Cybertruck.webp" title="Tesla Cybertruck" class="kuvat">
+        <img src="./Cttakaa.jpg" title="Cybertruck takaa" class="kuvat">
+        <img src="./Scaniav8.jpeg" title="Scania v8" class="kuvat">
+        <img src="./Mercedes.jpg" title="Mercedes Truck" class="kuvat">
+        <img src="./Belaz75710.jpg" title="Belaz75710" class="kuvat">
+        <img src="./kenworthw900b.png" title="Jenkki Kenworth" class="kuvat">
+        <img src="./kraz255b.jpg" title="Kraz255b" class="kuvat">
+        <h2 class="text-center">EU VS USA</h2>
+        <p class="text-center">Jenkki- ja EU-kuorma-autot eroavat toisistaan useilla tavoilla, mukaan lukien tekniset erot ja ulkonäkö. Tässä on joitakin merkittäviä eroja.</p>
+        <ul>
+            <ul>
+                <li><strong>Koko ja pituus:</strong>
         
-            <h3 id="Yhteystiedot" class="text-center">Yhteystiedot:</h3>                
-    <ul> 
-    <p><li>Toimitusjohtaja Kaivurimies</p></li>
-    <p> <a href="mailto:kaivurimies@kaivurivirma.com">kaivurimies@kaivurivirma.com</a> </p>
-    <p><li>04050050400</li></p>
-    <p><li><a href="https://www.google.com/maps?q=60.1699,24.9384" target="_blank">Tervetuloa vierailemaan paikan päälle!</a>
-        Google maps</li></p>
-    <p><li>Kuorma-autonkuormaajakatu 66</li></p>
-    </li> </ul>
-    <li><h5 class="text-center">Löydät meidät myös täältä</h5></li>
-
-    <table>
-        <tr>
-            <td>
-                <a href="https://www.facebook.com/profile" target="_blank">
-                    <img src="fb.jpg" alt="Facebook" width="210" height="70">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="ig.webp" alt="Instagram" width="70" height="70">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.tiktok.com" target="_blank">
-                    <img src="tiktok.png" alt="TikTok" width="70" height="70">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.twitter.com" target="_blank">
-                    <img src="twitter.png" alt="Twitter" width="72" height="70">
-                </a>
-            </td>
-        </tr>
-    </table>
-    
-    
-
-</div>
-
-
+                    Jenkki-kuorma-autot ovat usein huomattavasti suurempia ja pidempiä kuin EU-kuorma-autot. 
+                    Yksi syy tähän on erilainen tieliikennelainsäädäntö: Yhdysvalloissa tiellä on yleensä enemmän tilaa, ja suurempien ajoneuvojen käyttö on sallittua.</li>
+                    <li><strong>Akselit:</strong> Jenkki-kuorma-autoissa on yleensä enemmän akselia kuin EU-kuorma-autoissa. 
+                        Tämä voi johtua erilaisista kuormausvaatimuksista ja teiden kuntoon liittyvistä eroista.</li>
+                        <li><strong>Ohjaamon muoto: </strong> "Nuppi" tai ohjaamojen muoto eroaa merkittävästi. Jenkki-kuorma-autoissa on usein pitkä ja litteä ohjaamo, joka on erillään perävaunusta (näin kutsutaan "unibody"). 
+                            EU-kuorma-autoissa ohjaamo on yleensä integroitu osaksi kuormatilaa (näin kutsutaan "kaikki yhdessä" -rakenteeksi).</li>
+                        <li><strong>Tekniset erot:</strong> Teknisissä erossa on eroja, mukaan lukien moottoriteho, päästötandardit ja voimansiirto. 
+                            Jenkki-kuorma-autot noudattavat yleensä Pohjois-Amerikan päästönormeja, kun taas EU-kuorma-autot noudattavat eurooppalaisia päästöstandardeja.</li>
+                            <li><strong>Polttoaine: </strong>Jenkki-kuorma-autot käyttävät yleensä dieselmoottoreita, kun taas EU-kuorma-autoissa on monipuolisempia vaihtoehtoja, kuten diesel, kaasu ja sähkö.</li>
+                            
+            </ul>
+        </ul>
+        <h3 id="Yhteystiedot" class="text-center">Yhteystiedot:</h3>
+        <ul>
+            <li>Toimitusjohtaja Kaivurimies</li>
+            <li><a href="mailto:kaivurimies@kaivurivirma.com">kaivurimies@kaivurivirma.com</a></li>
+            <li>04050050400</li>
+            <li><a href="https://www.google.com/maps?q=60.1699,24.9384" target="_blank">Tervetuloa vierailemaan paikan päälle!</a> Google maps</li>
+            <li>Kuorma-autonkuormaajakatu 66</li>
+        </ul>
+        <h5 class="text-center">Löydät meidät myös täältä</h5>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com/profile" target="_blank">
+                        <img src="fb.jpg" alt="Facebook" width="210" height="70">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="ig.webp" alt="Instagram" width="70" height="70">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.tiktok.com" target="_blank">
+                        <img src="tiktok.png" alt="TikTok" width="70" height="70">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="twitter.png" alt="Twitter" width="72" height="70">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
