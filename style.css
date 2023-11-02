@@ -94,15 +94,4 @@ background: #eee;
 
 }
 
-script{
-    Olet laskuriElementti = document.getElementById("laskuri");
-    let laskuriArvo = localStorage.getItem("laskuriArvo") || 0;
-    
-    laskuriArvo = parseInt(laskuriArvo) + 1;
-    
-    laskuriElementti.textContent = laskuriArvo;
-    localStorage.setItem("laskuriArvo", laskuriArvo);
-
-}
-    
 
